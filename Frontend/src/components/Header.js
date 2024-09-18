@@ -28,7 +28,7 @@ export default function Header() {
       <nav>
         {isAuthenticated ? (
           <>
-            <Link to="/create-blog">Create New Post</Link>
+            {/* <Link to="/create-blog">Create New Blog</Link> */}
             {/* Use a button instead of an anchor for logout */}
             <button onClick={logout} className="logout-btn">Logout</button>
           </>

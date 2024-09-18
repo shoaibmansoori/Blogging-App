@@ -40,7 +40,7 @@ export default function EditBlogPage() {
     <form onSubmit={handleEditBlog}>
       <h1>Edit Blog</h1>
       <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
-      <textarea value={content} onChange={(e) => setContent(e.target.value)} />
+      <textarea className="styled-textarea" value={content} onChange={(e) => setContent(e.target.value)} />
       <button type="submit">Update</button>
     </form>
   );
